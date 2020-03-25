@@ -18,7 +18,7 @@ app.controller('BigFiveController', function($scope, $http, $window) {
 
 app.controller('HomeController', function($scope, $http, $window, $timeout) {
   $scope.user = {};
-  $scope.user.questionSet = "1"; // This will be hardcoded based on the question set
+  $scope.user.questionSet = "2"; // This will be hardcoded based on the question set
 
   $scope.display = function() {
     $window.sessionStorage.setItem('consentTime', Date.now());
